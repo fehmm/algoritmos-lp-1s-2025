@@ -9,8 +9,8 @@ printf("calculadora IMC\n");
 
 // imprimeuma mensagem a ler 
 // um valor float na variavel altura
-prinf("digite a altura: ");
-acanf("%f", &altura);
+printf("digite a altura: ");
+scanf("%f", &altura);
 
 printf("digite o peso: ");
 scanf("%f", &peso);
@@ -24,7 +24,7 @@ if(imc <= 18,5){
 }
 
 if(imc > 18,5 && imc <= 24.9){
-    prinf ("intervalo normal\n");
+    printf ("intervalo normal\n");
 }
 
 if(imc > 24.9 && imc <= 29.9){
