@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 int main(int argc, char* argv[]){
+    
  int idade;
  float altura;
  float peso;
+
  printf("digite a idade: ");
  scanf("%d", &idade);
  printf("digite a altura: ");
