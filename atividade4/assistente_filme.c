@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main(int argc, char const *argv[]) {
+    
     int tipo, genero, subgenero;
 
     printf("Ola! Serei o seu guia para a escolha do filme\n");
