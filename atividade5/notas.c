@@ -22,7 +22,7 @@ int main(int argc, char* argv[]){
 
     for (i = 0; i < a; i++) {
         do {
-            printf("Digite a nota do aluno %d (0.0 a 10.0): ", i + 1);
+            printf("Digite a nota do aluno %d : ", i + 1);
             scanf("%f", &notas[i]);
 
             if (notas[i] < 0.0 || notas[i] > 10.0) {
@@ -45,20 +45,20 @@ int main(int argc, char* argv[]){
         }
     }
 
-    printf("\nDigite a posição do aluno que deseja ver a nota (1 a %d): ", a);
+    printf("\nDigite a posicao do aluno que deseja ver a nota (1 a %d): ", a);
     scanf("%d", &k);
 
     if (k >= 1 && k <= a) {
-        printf("Nota do aluno na posição %d: %.2f\n", k, notas[k - 1]);
+        printf("Nota do aluno na posicao %d: %.2f\n", k, notas[k - 1]);
     } else {
-        printf("Posição inválida.\n");
+        printf("Posicao inválida.\n");
     }
 
     printf("\n--- Resultados ---\n");
-    printf("Média geral da turma: %.2f\n", soma / a);
+    printf("Media geral da turma: %.2f\n", soma / a);
     printf("Maior nota: %.2f\n", maior);
     printf("Menor nota: %.2f\n", menor);
     printf("Quantidade de alunos aprovados (nota >= 6.0): %d\n", aprovados);
 
     return 0;
-}
+}  

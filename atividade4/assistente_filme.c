@@ -50,7 +50,7 @@ int main(int argc, char const *argv[]) {
             scanf("%d", &subgenero);
 
             if (subgenero == 1) {
-                printf("Sugestao: o estraordinario homem aranha\n");
+                printf("Sugestao: o espetacular homem aranha\n");
             } else if (subgenero == 2) {
                 printf("Sugestao: Velozes e Furiosos\n");
             } else {
@@ -64,4 +64,4 @@ int main(int argc, char const *argv[]) {
     }
 
     return 0;
-}
+} 
