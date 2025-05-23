@@ -7,7 +7,7 @@
 typedef struct {
     int id;
     char paciente[50];
-    char dataNascimento[15];
+    char dataNascimento[15];  
     char especialidade[30];
     char data[20];
     char status[20];
