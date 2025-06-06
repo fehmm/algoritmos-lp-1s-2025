@@ -13,6 +13,7 @@ int e_primo(int n) {
 }
 
 int main(int argc, char* argv) {
+    
     int numero;
 
     printf("Digite um numero inteiro: ");
