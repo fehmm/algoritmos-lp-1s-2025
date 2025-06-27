@@ -26,8 +26,8 @@ int main() {
     }
 
 
-    printf("\nFeliz Aniversário, meu amor! 💖\n");
-    printf("Que o seu dia seja tão lindo quanto você!\n");
+    printf("\nFeliz Aniversario, meu amor \n");
+    printf("Que o seu dia seja maravilhoso!\n");
 
     return 0;
-}
+} 
